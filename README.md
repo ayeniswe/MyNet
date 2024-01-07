@@ -1,6 +1,10 @@
-# MyNet
+<h1 align="center">
+MyNet
+</h1>
 
-Your User-Friendly Asset and Liability Monitoring Widget
+<p align="center">
+  <img src="https://github.com/ayeniswe/MyNet/blob/main/public/logo.png?raw=true" alt="App logo"/>
+</p>
 
 ## Features
 
