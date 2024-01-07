@@ -33,7 +33,7 @@ Follow these steps to set up the project on your local machine.
 
 - Obtain an API key for Ethereum explorer from [Etherscan Developer Portal](https://etherscan.io/myapikey).
 - Obtain an API key for Polyscan explorer from [Polygonscan Developer Portal](https://polygonscan.com/myapikey).
-- Add data to json files
+- Add all neccessary data to json files
 
 #### API Keys
 
@@ -74,6 +74,20 @@ To include your cryptocurrency information in the project, follow these steps:
         // Add more assets if needed
     ]
 }
+```
+
+### Usage
+
+Step 1: Install dependencies
+
+```bash
+$ npm install
+```
+
+Step 2: Change directory to services
+
+```bash
+$ cd services
 ```
 
 Step 3: Run server
