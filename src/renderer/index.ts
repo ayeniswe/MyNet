@@ -1,5 +1,5 @@
 import proxy from "./proxy";
-import crypto from "./data/crypto.json";
+import crypto from "../../data/crypto.json";
 import './styles/index.css';
 
 /**
@@ -164,7 +164,7 @@ const getTotalAssetsValue = async (): Promise<number> => {
         // Get crypto assets total value
         for (const asset of crypto.assets) {
             // Allow multiple addresses (primarily for bitcoin)
-            const address = Array.isArray(asset.address) ? asset.address.join("|") : asset.address;
+            const address = asset.address.join("|");
             const walletEndpoint = `/api/v1/crypto/${asset.blockchain}/wallet?address=${address}`;
             // Get wallet balance
             const response = await proxy.get(walletEndpoint);
